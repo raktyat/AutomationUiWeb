@@ -1,0 +1,26 @@
+2026-01-22 12:11:02.726 [main] INFO  com.automation.framework.config.ConfigurationManager - Loaded framework configuration
+2026-01-22 12:11:02.768 [main] INFO  com.automation.framework.config.ConfigurationManager - Loaded qa environment configuration
+2026-01-22 12:11:03.141 [main] INFO  com.automation.framework.reporting.ExtentReportManager - Extent Reports initialized: target/extent-reports/TestReport_2026-01-22_12-11-02.html
+2026-01-22 12:11:03.141 [main] INFO  com.automation.framework.core.base.BaseTest - Test suite started: Surefire suite
+2026-01-22 12:11:03.141 [main] INFO  com.automation.framework.core.base.BaseTest - Environment: qa
+2026-01-22 12:11:03.153 [main] INFO  com.automation.framework.listeners.TestListener - Test Suite Started: Surefire test
+2026-01-22 12:11:04.043 [TestNG-test=Surefire test-1] INFO  com.automation.framework.core.base.BaseApiTest - Configured RestAssured for API tests
+2026-01-22 12:11:04.071 [TestNG-test=Surefire test-1] INFO  com.automation.framework.core.base.BaseApiTest - Starting API test: testCreatePost
+2026-01-22 12:11:04.072 [TestNG-test=Surefire test-3] INFO  com.automation.framework.core.base.BaseApiTest - Starting API test: testGetPostById
+2026-01-22 12:11:04.072 [TestNG-test=Surefire test-2] INFO  com.automation.framework.core.base.BaseApiTest - Starting API test: testGetAllPosts
+2026-01-22 12:11:04.103 [TestNG-test=Surefire test-3] DEBUG com.automation.framework.reporting.ExtentReportManager - Created test in report: testGetPostById - GET single post by ID
+2026-01-22 12:11:04.103 [TestNG-test=Surefire test-2] DEBUG com.automation.framework.reporting.ExtentReportManager - Created test in report: testGetAllPosts - GET all posts - Basic GET request example
+2026-01-22 12:11:04.104 [TestNG-test=Surefire test-1] DEBUG com.automation.framework.reporting.ExtentReportManager - Created test in report: testCreatePost - POST create new post
+2026-01-22 12:11:04.111 [TestNG-test=Surefire test-1] INFO  com.automation.framework.listeners.TestListener - Test Started: testCreatePost
+2026-01-22 12:11:04.112 [TestNG-test=Surefire test-3] INFO  com.automation.framework.listeners.TestListener - Test Started: testGetPostById
+2026-01-22 12:11:04.112 [TestNG-test=Surefire test-2] INFO  com.automation.framework.listeners.TestListener - Test Started: testGetAllPosts
+2026-01-22 12:11:05.230 [TestNG-test=Surefire test-3] ERROR com.automation.framework.listeners.TestListener - Test Failed: testGetPostById - qa-api.example.com
+2026-01-22 12:11:05.233 [TestNG-test=Surefire test-1] ERROR com.automation.framework.listeners.TestListener - Test Failed: testCreatePost - No such host is known (qa-api.example.com)
+2026-01-22 12:11:05.233 [TestNG-test=Surefire test-2] ERROR com.automation.framework.listeners.TestListener - Test Failed: testGetAllPosts - qa-api.example.com
+2026-01-22 12:11:05.236 [TestNG-test=Surefire test-3] DEBUG com.automation.framework.core.base.BaseTest - Completed test method: testGetPostById
+2026-01-22 12:11:05.237 [TestNG-test=Surefire test-1] DEBUG com.automation.framework.core.base.BaseTest - Completed test method: testCreatePost
+2026-01-22 12:11:05.238 [TestNG-test=Surefire test-2] DEBUG com.automation.framework.core.base.BaseTest - Completed test method: testGetAllPosts
+2026-01-22 12:11:05.320 [main] INFO  com.automation.framework.listeners.TestListener - Test Suite Finished: Surefire test
+2026-01-22 12:11:05.321 [main] INFO  com.automation.framework.listeners.TestListener - Passed: 0, Failed: 3, Skipped: 0
+2026-01-22 12:11:05.695 [main] INFO  com.automation.framework.reporting.ExtentReportManager - Extent Reports flushed
+2026-01-22 12:11:05.696 [main] INFO  com.automation.framework.core.base.BaseTest - Test suite completed

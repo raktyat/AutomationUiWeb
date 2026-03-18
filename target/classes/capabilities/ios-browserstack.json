@@ -1,0 +1,16 @@
+{
+  "platformName": "iOS",
+  "appium:deviceName": "iPhone 14 Pro Max",
+  "appium:platformVersion": "16",
+  "appium:app": "bs://<app_url>",
+  "bstack:options": {
+    "userName": "${BROWSERSTACK_USERNAME}",
+    "accessKey": "${BROWSERSTACK_ACCESS_KEY}",
+    "projectName": "Automation Framework",
+    "buildName": "iOS Build",
+    "sessionName": "iOS Test Session",
+    "debug": true,
+    "networkLogs": true,
+    "appiumVersion": "2.0.0"
+  }
+}

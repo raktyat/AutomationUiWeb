@@ -1,0 +1,16 @@
+{
+  "platformName": "Android",
+  "appium:deviceName": "Samsung Galaxy S23",
+  "appium:platformVersion": "13.0",
+  "appium:app": "bs://<app_url>",
+  "bstack:options": {
+    "userName": "${BROWSERSTACK_USERNAME}",
+    "accessKey": "${BROWSERSTACK_ACCESS_KEY}",
+    "projectName": "Automation Framework",
+    "buildName": "Android Build",
+    "sessionName": "Android Test Session",
+    "debug": true,
+    "networkLogs": true,
+    "appiumVersion": "2.0.0"
+  }
+}

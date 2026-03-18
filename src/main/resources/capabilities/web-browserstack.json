@@ -1,0 +1,19 @@
+{
+  "browserName": "Chrome",
+  "browserVersion": "latest",
+  "bstack:options": {
+    "os": "Windows",
+    "osVersion": "11",
+    "userName": "${BROWSERSTACK_USERNAME}",
+    "accessKey": "${BROWSERSTACK_ACCESS_KEY}",
+    "projectName": "Automation Framework",
+    "buildName": "Web Build",
+    "sessionName": "Web Test Session",
+    "local": false,
+    "debug": true,
+    "networkLogs": true,
+    "consoleLogs": "info",
+    "seleniumVersion": "4.15.0",
+    "resolution": "1920x1080"
+  }
+}

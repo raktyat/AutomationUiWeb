@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="methods" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="4" parallel="methods" name="Surefire test(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.automation.framework.tests.api.JsonPlaceholderTest">
+        <methods>
+          <include name="testCreatePost"/>
+          <include name="testGetPostById"/>
+          <include name="testGetAllPosts"/>
+          <include name="beforeSuite"/>
+          <include name="logTestStart"/>
+          <include name="afterSuite"/>
+          <include name="setUpApiTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.automation.framework.tests.api.JsonPlaceholderTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
