@@ -1,7 +1,0 @@
-com\automation\framework\tests\api\JsonPlaceholderTest.class
-com\automation\framework\tests\api\AuthApiTest.class
-com\automation\framework\tests\web\LoginTest.class
-com\automation\framework\tests\api\UserApiTest.class
-com\automation\framework\tests\mobile\android\AndroidLoginTest.class
-com\automation\framework\tests\web\HomePageTest.class
-com\automation\framework\tests\mobile\ios\IOSLoginTest.class

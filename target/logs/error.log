@@ -1,3 +1,0 @@
-2026-01-22 12:11:05.230 [TestNG-test=Surefire test-3] ERROR com.automation.framework.listeners.TestListener - Test Failed: testGetPostById - qa-api.example.com
-2026-01-22 12:11:05.233 [TestNG-test=Surefire test-1] ERROR com.automation.framework.listeners.TestListener - Test Failed: testCreatePost - No such host is known (qa-api.example.com)
-2026-01-22 12:11:05.233 [TestNG-test=Surefire test-2] ERROR com.automation.framework.listeners.TestListener - Test Failed: testGetAllPosts - qa-api.example.com
